@@ -1,0 +1,159 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    width:100%;
+
+}
+.header .top_header
+{
+    max-width: 100%;
+    display:flex;
+    padding:10px 10px;
+    background: #f6f7f9;
+}
+.header .top_header .icon{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.header .top_header .info p{
+    margin-left:10px;
+    color:cadetblue;
+}
+.header .mid_header
+{
+    display:flex;
+    padding:20px 40px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .mid_header .logo img
+{
+    width: 90px;
+    height:70px;
+    object-fit:cover;
+    cursor: pointer;
+}
+.header .mid_header .search input
+{
+    margin-top: 5px;
+    padding: 5px 10px;
+    outline: none;
+    background-color: none;
+    border-radius: 5px;
+    width:250px; 
+    border:none;
+    border: 1px solid #8a8a8a; 
+    height:55%; 
+}
+.header .mid_header .user
+{
+    display:flex;
+    margin-right: 30px;
+
+}
+.header .mid_header .user .icon
+{
+    margin-top: 10px;
+}
+.header .mid_header .search Button
+{
+    margin-left:5px;
+}
+.header .mid_header .search Button:hover
+{
+    background-color: red;
+}
+.header .last_header
+{
+    background-color: black;
+    width:100%;
+    padding:10px 10px;
+    justify-content: space-between;
+}
+.header .last_header .user_profile
+{
+    display:flex;
+    margin-top: 5px;
+}
+.header .last_header .user_profile .icon
+{
+    padding:10px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+.header .last_header .user_profile .info
+{
+    margin-left: 10px;
+}
+
+.header .last_header .user_profile .info h2
+{
+    color:#fff;
+    font-size: 18px;
+}
+
+.header .last_header .user_profile .info p
+{
+    color:#ababab;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.header .last_header.nav
+{
+    margin-top: 50px;
+}
+.header .last_header .nav ul 
+{
+    display:flex;
+    
+}
+.header .last_header .nav ul li
+{
+    list-style: none;
+    margin-top: 20px;
+}
+.header .last_header .nav ul li .link
+{   
+    
+    margin-right:20px;
+    font-weight: 800;
+    text-decoration: none;
+    color:#fff;
+    transition: 0.5s;
+   
+}
+.header .last_header .nav ul li .link:hover
+{
+    color:aqua ;
+}
+.header .last_header .offer
+{
+    color: white;
+    margin-top: 2px;
+    margin-bottom:2px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    color:black;
+    
+    
+}
+.header .last_header
+{
+    display:flex;
+    
+}
+.header .last_header .offer p
+{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding:5px;
+}
